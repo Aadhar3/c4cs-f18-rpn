@@ -28,7 +28,7 @@ def main():
     while True:
         try:
             calculate(input('rpn calc> '))
-        except:
+        except ValueError:
             pass
 
 
