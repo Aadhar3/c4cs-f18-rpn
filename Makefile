@@ -1,3 +1,6 @@
 .PHONY: test
 
-test: python3 -m unittest
+test: python -m unittest test_rpn.TestBasics
+
+
+# python3 -m unittest
