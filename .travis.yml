@@ -1,8 +1,8 @@
 language: python
 python:
     - "3.5"
-before_install:
-  - pip install --user codecov
+install:
+  - pip install codecov
 script:
   - python -m unittest test_rpn.TestBasics
   - coverage run test_rpn.py
