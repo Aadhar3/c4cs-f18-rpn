@@ -3,4 +3,5 @@ python:
     - "3.5"
 script: python -m unittest test_rpn.TestBasics
 after_success:
-  - coveralls
+  - coverage run python -m unittest test_rpn.TestBasics
+  - coverage report
