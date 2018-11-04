@@ -2,11 +2,11 @@ language: python
 python:
     - "3.5"
 install:
-  - pip install codecov
+  - pip install --user codecov
 script:
   - python -m unittest test_rpn.TestBasics
   - coverage run test_rpn.py
   - coverage report
 
 after_success:
-  - codecov
+  - codecov --file coverage/lcov.info --disable search
