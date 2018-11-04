@@ -3,6 +3,6 @@ python:
     - "3.5"
 install:
   - pip install codecov
-script: python -m unittest test_rpn.TestBasics
+script: coverage run python -m unittest test_rpn.TestBasics
 after_success:
   - codecov
