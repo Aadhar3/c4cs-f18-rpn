@@ -6,7 +6,7 @@ install:
   - pip install termcolor
 script:
   - python -m unittest test_rpn.TestBasics
-  - coverage run test_rpn.py
+  - coverage run -m unittest test_rpn.TestBasics
   - coverage report
 
 after_success:
