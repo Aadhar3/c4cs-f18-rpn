@@ -1,7 +1,7 @@
 language: python
 python:
     - "3.5"
-install:
+before_install:
   - pip install --user codecov
 script:
   - python -m unittest test_rpn.TestBasics
