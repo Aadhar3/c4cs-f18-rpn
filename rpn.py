@@ -9,7 +9,8 @@ operators = {
     '-': operator.sub,
     '*': operator.mul,
     '/': operator.truediv,
-    '^': operator.pow
+    '^': operator.pow,
+    'x': operator.xor
 }
 
 
@@ -25,8 +26,6 @@ def calculate(myarg):
             arg1 = stack.pop()
             result = function(arg1, arg2)
             stack.append(result)
-        print('aadhar')
-        print('agarwal')
     if len(stack) != 1:
         raise TypeError("Too many parameters")
     return stack.pop()

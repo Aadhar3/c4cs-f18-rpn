@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39412ea4-f424-469c-b8e2-52761a4a5de1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/rpn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +12,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_pow.coverage" NAME="Unittests for test_rpn.TestBasics.test_pow Coverage Results" MODIFIED="1541203565433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/week8$rpn.coverage" NAME="rpn Coverage Results" MODIFIED="1541350078381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$rpn.coverage" NAME="rpn Coverage Results" MODIFIED="1541438207215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_toomany.coverage" NAME="Unittests for test_rpn.TestBasics.test_toomany Coverage Results" MODIFIED="1540581467928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics.coverage" NAME="Unittests for test_rpn.TestBasics Coverage Results" MODIFIED="1541350700787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_add.coverage" NAME="Unittests for test_rpn.TestBasics.test_add Coverage Results" MODIFIED="1541203041292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -83,7 +82,7 @@
           <entry key="coverage" value="4" />
           <entry key="coveragerc" value="5" />
           <entry key="md" value="69" />
-          <entry key="py" value="323" />
+          <entry key="py" value="353" />
           <entry key="yml" value="179" />
         </counts>
       </usages-collector>
@@ -91,7 +90,7 @@
         <counts>
           <entry key="Markdown" value="69" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="323" />
+          <entry key="Python" value="353" />
           <entry key="YAML" value="179" />
         </counts>
       </usages-collector>
@@ -121,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rpn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="387">
+              <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -222,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_rpn.TestBasics">
+  <component name="RunManager" selected="Python.rpn">
     <configuration name="rpn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="week8" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -314,8 +313,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_rpn.TestBasics" />
         <item itemvalue="Python.rpn" />
+        <item itemvalue="Python tests.Unittests for test_rpn.TestBasics" />
         <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_pow" />
         <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_add" />
         <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_toomany" />
@@ -369,14 +368,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.2358643" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.2358643" />
       <window_info id="Structure" order="1" sideWeight="0.50136983" side_tool="true" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3410959" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3410959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -470,8 +468,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rpn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="387">
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
