@@ -11,7 +11,7 @@ script:
 
 after_success:
   - pip install --user codecov
-  - codecov --file coverage/lcov.info --disable search
+  - codecov
 
 comment:
   layout: "reach, diff, flags, files"
