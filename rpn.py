@@ -38,6 +38,9 @@ def main():
         if answer > 0:
             print(colored("Result: {}".format(answer), "blue"))
 
+        elif answer == 0:
+            print(colored("Result: {}".format(answer), "black"))
+
         else:
             print(colored("Result: {}".format(answer), "red"))
 
