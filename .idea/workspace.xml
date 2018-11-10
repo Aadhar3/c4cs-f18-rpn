@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39412ea4-f424-469c-b8e2-52761a4a5de1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.coverage" beforeDir="false" afterPath="$PROJECT_DIR$/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/rpn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_rpn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_rpn.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,10 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_pow.coverage" NAME="Unittests for test_rpn.TestBasics.test_pow Coverage Results" MODIFIED="1541203565433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/week8$rpn.coverage" NAME="rpn Coverage Results" MODIFIED="1541439028064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_percent.coverage" NAME="Unittests for test_rpn.TestBasics.test_percent Coverage Results" MODIFIED="1541879082852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_rightshift.coverage" NAME="Unittests for test_rpn.TestBasics.test_rightshift Coverage Results" MODIFIED="1541880146300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_pow.coverage" NAME="Unittests for test_rpn.TestBasics.test_pow Coverage Results" MODIFIED="1541879089981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_divide.coverage" NAME="Unittests for test_rpn.TestBasics.test_divide Coverage Results" MODIFIED="1541879071498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_factorial.coverage" NAME="Unittests for test_rpn.TestBasics.test_factorial Coverage Results" MODIFIED="1541881383208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_floordiv.coverage" NAME="Unittests for test_rpn.TestBasics.test_floordiv Coverage Results" MODIFIED="1541879078809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$rpn.coverage" NAME="rpn Coverage Results" MODIFIED="1541880012812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_toomany.coverage" NAME="Unittests for test_rpn.TestBasics.test_toomany Coverage Results" MODIFIED="1540581467928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics.coverage" NAME="Unittests for test_rpn.TestBasics Coverage Results" MODIFIED="1541439063871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics.coverage" NAME="Unittests for test_rpn.TestBasics Coverage Results" MODIFIED="1541879442674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/week8$Unittests_for_test_rpn_TestBasics_test_add.coverage" NAME="Unittests for test_rpn.TestBasics.test_add Coverage Results" MODIFIED="1541203041292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CoverageViewManager">
@@ -72,12 +78,12 @@
     <session id="-485352396">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.12" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -86,7 +92,7 @@
           <entry key="coverage" value="4" />
           <entry key="coveragerc" value="5" />
           <entry key="md" value="69" />
-          <entry key="py" value="380" />
+          <entry key="py" value="996" />
           <entry key="yml" value="179" />
         </counts>
       </usages-collector>
@@ -94,7 +100,7 @@
         <counts>
           <entry key="Markdown" value="69" />
           <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="380" />
+          <entry key="Python" value="996" />
           <entry key="YAML" value="179" />
         </counts>
       </usages-collector>
@@ -105,7 +111,7 @@
           <entry key="html" value="1" />
           <entry key="md" value="2" />
           <entry key="py" value="5" />
-          <entry key="yml" value="4" />
+          <entry key="yml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -114,18 +120,18 @@
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="5" />
-          <entry key="YAML" value="4" />
+          <entry key="YAML" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rpn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="765">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -133,20 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_rpn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="290">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -166,11 +163,11 @@
         <option value="$PROJECT_DIR$/make.makefile" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Makefile" />
-        <option value="$PROJECT_DIR$/test_rpn.py" />
         <option value="$PROJECT_DIR$/.coverage" />
         <option value="$PROJECT_DIR$/.coveragerc" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/test_rpn.py" />
         <option value="$PROJECT_DIR$/rpn.py" />
       </list>
     </option>
@@ -225,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for test_rpn.TestBasics">
+  <component name="RunManager" selected="Python tests.Unittests for test_rpn.TestBasics.test_factorial">
     <configuration name="rpn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="week8" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,7 +260,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_rpn.TestBasics.test_add" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_rpn.TestBasics.test_factorial" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="week8" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -274,7 +271,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_rpn.TestBasics.test_add&quot;" />
+      <option name="_new_target" value="&quot;test_rpn.TestBasics.test_factorial&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -293,7 +290,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_rpn.TestBasics.test_toomany" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_rpn.TestBasics.test_rightshift" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="week8" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,24 +301,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_rpn.TestBasics.test_toomany&quot;" />
+      <option name="_new_target" value="&quot;test_rpn.TestBasics.test_rightshift&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.rpn" />
-      <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_add" />
-      <item itemvalue="Python tests.Unittests for test_rpn.TestBasics" />
-      <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_toomany" />
       <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_pow" />
+      <item itemvalue="Python tests.Unittests for test_rpn.TestBasics" />
+      <item itemvalue="Python.rpn" />
+      <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_rightshift" />
+      <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_factorial" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for test_rpn.TestBasics" />
+        <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_factorial" />
+        <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_rightshift" />
         <item itemvalue="Python.rpn" />
+        <item itemvalue="Python tests.Unittests for test_rpn.TestBasics" />
         <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_pow" />
-        <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_add" />
-        <item itemvalue="Python tests.Unittests for test_rpn.TestBasics.test_toomany" />
       </list>
     </recent_temporary>
   </component>
@@ -339,47 +336,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.02 at 19h 53m 49s.xml">
-      <configuration name="Unittests for test_rpn.TestBasics" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.02 at 19h 57m 19s.xml">
-      <configuration name="Unittests for test_rpn.TestBasics" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics_test_add - 2018.11.02 at 19h 57m 21s.xml">
-      <configuration name="Unittests for test_rpn.TestBasics.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.02 at 19h 57m 24s.xml">
-      <configuration name="Unittests for test_rpn.TestBasics" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics_test_pow - 2018.11.02 at 20h 05m 56s.xml">
+    <history-entry file="Unittests_for_test_rpn_TestBasics_test_pow - 2018.11.10 at 14h 44m 50s.xml">
       <configuration name="Unittests for test_rpn.TestBasics.test_pow" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics_test_pow - 2018.11.02 at 20h 06m 05s.xml">
-      <configuration name="Unittests for test_rpn.TestBasics.test_pow" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.03 at 22h 14m 21s.xml">
+    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.10 at 14h 45m 31s.xml">
       <configuration name="Unittests for test_rpn.TestBasics" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.04 at 11h 58m 21s.xml">
+    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.10 at 14h 50m 43s.xml">
       <configuration name="Unittests for test_rpn.TestBasics" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.05 at 12h 30m 49s.xml">
-      <configuration name="Unittests for test_rpn.TestBasics" configurationId="tests" />
+    <history-entry file="Unittests_for_test_rpn_TestBasics_test_rightshift - 2018.11.10 at 15h 01m 56s.xml">
+      <configuration name="Unittests for test_rpn.TestBasics.test_rightshift" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_test_rpn_TestBasics - 2018.11.05 at 12h 31m 04s.xml">
-      <configuration name="Unittests for test_rpn.TestBasics" configurationId="tests" />
+    <history-entry file="Unittests_for_test_rpn_TestBasics_test_rightshift - 2018.11.10 at 15h 02m 26s.xml">
+      <configuration name="Unittests for test_rpn.TestBasics.test_rightshift" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_rpn_TestBasics_test_factorial - 2018.11.10 at 15h 10m 05s.xml">
+      <configuration name="Unittests for test_rpn.TestBasics.test_factorial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_rpn_TestBasics_test_factorial - 2018.11.10 at 15h 10m 29s.xml">
+      <configuration name="Unittests for test_rpn.TestBasics.test_factorial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_rpn_TestBasics_test_factorial - 2018.11.10 at 15h 11m 11s.xml">
+      <configuration name="Unittests for test_rpn.TestBasics.test_factorial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_rpn_TestBasics_test_factorial - 2018.11.10 at 15h 12m 20s.xml">
+      <configuration name="Unittests for test_rpn.TestBasics.test_factorial" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_rpn_TestBasics_test_factorial - 2018.11.10 at 15h 23m 03s.xml">
+      <configuration name="Unittests for test_rpn.TestBasics.test_factorial" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.2358643" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.24313408" />
       <window_info id="Structure" order="1" sideWeight="0.50136983" side_tool="true" weight="0.24959612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3410959" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49452055" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -390,12 +387,12 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.49452055" />
       <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32956383" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49863014" visible="true" weight="0.22617124" />
@@ -457,27 +454,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_rpn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rpn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="765">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
             <element signature="e#24#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_rpn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>

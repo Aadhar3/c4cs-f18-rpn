@@ -2,6 +2,7 @@
 
 import operator
 import readline
+import math
 from termcolor import colored
 
 operators = {
@@ -9,8 +10,10 @@ operators = {
     '-': operator.sub,
     '*': operator.mul,
     '/': operator.truediv,
+    'x': operator.xor,
     '^': operator.pow,
-    'x': operator.xor
+    '//': operator.floordiv,
+    'rs': operator.rshift
 }
 
 
@@ -18,8 +21,20 @@ def calculate(myarg):
     stack = list()
     for token in myarg.split():
         try:
-            token = int(token)
-            stack.append(token)
+            if token.find('%') != -1:
+                first = stack[0]
+                token = token.replace('%', '')
+                token = int(token)
+                second = ((token/100)*first)
+                stack.append(second)
+            elif token == '!':
+                first = stack[0]
+                result = math.factorial(first)
+                stack.pop()
+                stack.append(result)
+            else:
+                token = int(token)
+                stack.append(token)
         except ValueError:
             function = operators[token]
             arg2 = stack.pop()
@@ -39,7 +54,7 @@ def main():
             print(colored("Result: {}".format(answer), "blue"))
 
         elif answer == 0:
-            print(colored("Result: {}".format(answer), "black"))
+            print(colored("Result: {}".format(answer), "blue"))
 
         else:
             print(colored("Result: {}".format(answer), "red"))
